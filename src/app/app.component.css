@@ -1,0 +1,60 @@
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.billionaire-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.person-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.person-details {
+  flex: 1;
+}
+
+.person-details h2 {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  margin-top: auto;
+}
+.card-body {
+  /* Existing styles... */
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Image: Details (1:2 ratio) */
+  gap: 20px;
+  border-radius: 10px; /* Curved corners for the card */
+  background-color: #fff; /* Optional background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.grid-item.image {
+  /* Center the image vertically and horizontally */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-item.details {
+  padding: 15px;
+}
+
+.img-thumbnail {
+  /* Adjust image size if needed */
+  width: auto;
+  height: auto;
+  max-width: 100%;
+}
